@@ -178,8 +178,8 @@
 <g id="car">
 <animateTransform attributeName="transform"
     type="translate"
-    from="200 0"
-    to="-1200 0"
+    from="200 -12"
+    to="-1200 -12"
     begin="0s"
     dur="10s"
     repeatCount="indefinite"
@@ -313,8 +313,8 @@
     repeatCount="indefinite"
 />-->
 
-<animateTransform id="car_an1" attributeName="transform" attributeType="XML" type="translate" from="0" to="-210" begin="0s; car_an2.end" dur="1.64s" fill="freeze" />
-<animateTransform id="car_an2" attributeName="transform" attributeType="XML" type="translate" from="1170" to="0" begin="car_an1.end" dur="8.36s" fill="freeze" />
+<animateTransform id="car_an1" attributeName="transform" attributeType="XML" type="translate" from="0 -12" to="-210 -12" begin="0s; car_an2.end" dur="1.64s" fill="freeze" />
+<animateTransform id="car_an2" attributeName="transform" attributeType="XML" type="translate" from="1170 -12" to="0 -12" begin="car_an1.end" dur="8.36s" fill="freeze" />
 
 <g id="Fill 409">
 <use xlink:href="#path37_fill" transform="matrix(-1 0 0 1 2012 776)" fill="#000000" fill-opacity="0.2"/>
