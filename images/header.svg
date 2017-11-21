@@ -1,7 +1,7 @@
 <svg width="1280" height="721" viewBox="0 0 1280 721" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <title>header</title>
 <desc>Created using Figma</desc>
-<g id="Canvas" transform="translate(-1801 -192)">
+<g id="Canvas" transform="translate(-1801 -191)">
 <g id="header">
 <g id="main-header">
 <g id="Group 4">
@@ -1691,7 +1691,7 @@
 <use xlink:href="#path145_stroke" transform="translate(2085 782)" fill="#979797"/>
 </g>
 <g id="Rectangle 11">
-<use xlink:href="#path146_fill" transform="translate(2068 833)" fill="#B4B4B4"/>
+<use xlink:href="#path146_fill" transform="translate(2068 832)" fill="#B4B4B4"/>
 </g>
 <g id="Page 1">
 <g id="Oval 2">
