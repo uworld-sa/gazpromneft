@@ -2,15 +2,24 @@
 	$(window).ready(function(){
 		$('iframe').each(function(){
 			$(this).height($(this).width()/16*9);
+			if ($(this).height() > $(window).height()) {
+				$(this).height($(window).height());
+				$(this).width($(this).height()*16/9);
+			}
 		});
 	});
 
 	$(window).load(function(){
-		$('iframe').each(function(){
-			$(this).height($(this).width()/16*9);
-		});
+		
 		$(window).resize(function(){
-			$(this).height($(this).width()/16*9);
+			$('iframe').each(function(){
+				$(this).css('width','100%');
+				$(this).height($(this).width()/16*9);
+				if ($(this).height() > $(window).height()) {
+					$(this).height($(window).height());
+					$(this).width($(this).height()*16/9);
+				}
+			});
 		});
 
 		$('.pie_progress').asPieProgress({
