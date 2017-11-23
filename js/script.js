@@ -7,7 +7,56 @@
 				$(this).width($(this).height()*16/9);
 			}
 		});
-	});
+		jwplayer.key="btTjXiuYZsRbqAVggNOhFFVcP3mvO2KkI2kx4w==";
+			jwplayer("video1").setup({
+				'width': "100%",
+				'aspectratio': "16:9",
+				'bufferlength': '3',
+				'stretching': 'exactfit',
+				'primary': 'flash',
+				'autostart': 'false',
+				'duration': '',
+				'playlist': [{
+				'image': '/player/promo.jpg',
+				'sources': [
+					    {file: "http://ecomon-vod.tass.ru/ecomon-vod/smil:ecomon01.smil/jwplayer.smil"},
+					    {file: "http://ecomon-vod.tass.ru/ecomon-vod/smil:ecomon01.smil/playlist.m3u8"},
+					]
+				}]
+			});
+			jwplayer("video2").setup({
+				'width': "100%",
+				'aspectratio': "16:9",
+				'bufferlength': '3',
+				'stretching': 'exactfit',
+				'primary': 'flash',
+				'autostart': 'false',
+				'duration': '',
+				'playlist': [{
+				'image': '/player/promo.jpg',
+				'sources': [
+					    {file: "http://ecomon-vod.tass.ru/ecomon-vod/smil:ecomon02.smil/jwplayer.smil"},
+					    {file: "http://ecomon-vod.tass.ru/ecomon-vod/smil:ecomon02.smil/playlist.m3u8"},
+					]
+				}]
+			});
+			jwplayer("video3").setup({
+				'width': "100%",
+				'aspectratio': "16:9",
+				'bufferlength': '3',
+				'stretching': 'exactfit',
+				'primary': 'flash',
+				'autostart': 'false',
+				'duration': '',
+				'playlist': [{
+				'image': '/player/promo.jpg',
+				'sources': [
+					    {file: "http://ecomon-vod.tass.ru/ecomon-vod/smil:ecomon03.smil/jwplayer.smil"},
+					    {file: "http://ecomon-vod.tass.ru/ecomon-vod/smil:ecomon03.smil/playlist.m3u8"},
+					]
+				}]
+			});
+		});
 
 	$(window).load(function(){
 		
