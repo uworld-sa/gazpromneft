@@ -56,6 +56,10 @@
 					]
 				}]
 			});
+			$('.scroll-next').on('click',function(){
+				$('html,body').animate({ scrollTop: $(window).height() }, 500);
+  				return false; 
+			});
 		});
 
 	$(window).load(function(){
