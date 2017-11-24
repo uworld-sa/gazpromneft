@@ -1147,31 +1147,37 @@ body {
 }
 /* line 946, ../sass/screen.scss */
 #screen-8 .strategy-2030 .after-anime .aa-2 .aa2-body {
-  font-size: 14px;
+  font-size: 13px;
 }
 
 @media screen and (max-width: 885px) {
-  /* line 957, ../sass/screen.scss */
-  #screen-2,
-  #screen-3,
-  #screen-4,
-  #screen-5,
-  #screen-6,
-  #screen-7,
-  #screen-8 {
+  /* line 965, ../sass/screen.scss */
+  #screen-2 .container,
+  #screen-3 .container,
+  #screen-4 .container,
+  #screen-5 .container,
+  #screen-6 .container,
+  #screen-7 .container,
+  #screen-8 .container {
     padding: 0px 20px;
   }
 }
 
-/* line 969, ../sass/screen.scss */
+/* line 971, ../sass/screen.scss */
 iframe {
   width: 100%;
 }
 
-/* line 973, ../sass/screen.scss */
+/* line 975, ../sass/screen.scss */
 #video1,
 #video2,
 #video3 {
   max-width: 1200px;
   margin: 0 auto;
+}
+/* line 980, ../sass/screen.scss */
+#video1.jw-flag-fullscreen,
+#video2.jw-flag-fullscreen,
+#video3.jw-flag-fullscreen {
+  max-width: inherit;
 }

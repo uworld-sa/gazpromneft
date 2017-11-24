@@ -944,7 +944,7 @@ body{
 					}
 				}
 				.aa2-body{
-					font-size: 14px;
+					font-size: 13px;
 					@include breakpoint-t(1160px){
 					}
 				}
@@ -962,7 +962,9 @@ body{
 #screen-7,
 #screen-8 {
 	@include breakpoint-t(885px){
-		padding: 0px 20px;
+		.container {
+			padding: 0px 20px;
+		}
 	}
 }
 
@@ -975,4 +977,7 @@ iframe {
 #video3 {
 	max-width: 1200px;
 	margin: 0 auto;
+	&.jw-flag-fullscreen {
+		max-width: inherit;
+	}
 }
