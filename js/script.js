@@ -90,9 +90,21 @@
 			$('#screen-1').removeClass('to_big');
 		}
 
-		/*$("iframe").waypoint(function(direction) {
-		  $(this).attr('src',$(this).attr('src')+'&autoplay=1');
-		});*/
+		$("#video1").waypoint(function(direction) {		  
+			jwplayer("video1").play();
+		},{
+		  offset: '60%'
+		});
+		$("#video2").waypoint(function(direction) {		  
+			jwplayer("video2").play();
+		},{
+		  offset: '60%'
+		});
+		$("#video3").waypoint(function(direction) {		  
+			jwplayer("video3").play();
+		},{
+		  offset: '60%'
+		});
 
 		$(".pie_progress").waypoint(function(direction) {
 		  $(this).asPieProgress('start');

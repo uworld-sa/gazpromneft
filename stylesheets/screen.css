@@ -182,7 +182,7 @@ body {
     display: none;
   }
 }
-@media screen and (min-width: 1300px) and (max-width: 1400px) {
+@media screen and (min-width: 125px) and (max-width: 1400px) {
   /* line 153, ../sass/screen.scss */
   #screen-1 .title {
     margin-top: 20px;
