@@ -19,8 +19,8 @@
 				'playlist': [{
 				'image': '/images/gallery_1.jpg',
 				'sources': [
-					    {file: "http://ecomon-vod.tass.ru/ecomon-vod/smil:ecomon01.smil/jwplayer.smil"},
-					    {file: "http://ecomon-vod.tass.ru/ecomon-vod/smil:ecomon01.smil/playlist.m3u8"},
+					    {file: "https://ecomon-vod.tass.ru/ecomon-vod/smil:ecomon01.smil/jwplayer.smil"},
+					    {file: "https://ecomon-vod.tass.ru/ecomon-vod/smil:ecomon01.smil/playlist.m3u8"},
 					]
 				}]
 			});
@@ -35,8 +35,8 @@
 				'playlist': [{
 				'image': '/images/gallery_2.jpg',
 				'sources': [
-					    {file: "http://ecomon-vod.tass.ru/ecomon-vod/smil:ecomon02.smil/jwplayer.smil"},
-					    {file: "http://ecomon-vod.tass.ru/ecomon-vod/smil:ecomon02.smil/playlist.m3u8"},
+					    {file: "https://ecomon-vod.tass.ru/ecomon-vod/smil:ecomon02.smil/jwplayer.smil"},
+					    {file: "https://ecomon-vod.tass.ru/ecomon-vod/smil:ecomon02.smil/playlist.m3u8"},
 					]
 				}]
 			});
@@ -51,8 +51,8 @@
 				'playlist': [{
 				'image': '/images/gallery_3.jpg',
 				'sources': [
-					    {file: "http://ecomon-vod.tass.ru/ecomon-vod/smil:ecomon03.smil/jwplayer.smil"},
-					    {file: "http://ecomon-vod.tass.ru/ecomon-vod/smil:ecomon03.smil/playlist.m3u8"},
+					    {file: "https://ecomon-vod.tass.ru/ecomon-vod/smil:ecomon03.smil/jwplayer.smil"},
+					    {file: "https://ecomon-vod.tass.ru/ecomon-vod/smil:ecomon03.smil/playlist.m3u8"},
 					]
 				}]
 			});
